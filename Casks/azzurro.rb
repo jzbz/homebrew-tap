@@ -17,8 +17,8 @@
 # zip is what makes this work — an unsigned one would install and then refuse
 # to open, which is worse than not offering it.
 cask "azzurro" do
-  version "0.2.0"
-  sha256 "1e0d837f8ca080cdcc2508165378554c5c8c28d2bc4693376920b3641ede2c3c"
+  version "0.3.0"
+  sha256 "94484c11b4563d740a68490aa37b49cc344221569e4896005acb6cdb7622a67a"
 
   url "https://github.com/jzbz/azzurro/releases/download/v#{version}/azzurro-v#{version}-macos-universal.zip",
       verified: "github.com/jzbz/azzurro/"
