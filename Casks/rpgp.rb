@@ -17,8 +17,8 @@
 # zip is what makes this work — an unsigned one would install and then refuse
 # to open, which is worse than not offering it.
 cask "rpgp" do
-  version "0.1.4"
-  sha256 "96d0d96a9e46cb2da5466619151b2e62a5507612a62f3acadd5e3048f7c2d235"
+  version "0.1.5"
+  sha256 "ead1cc1ce2115e2d2033d5aaf2bedccd18e9d3d675aa85a221e9a333f7a9e91c"
 
   url "https://github.com/jzbz/rpgp/releases/download/v#{version}/rpgp-v#{version}-macos-universal.zip",
       verified: "github.com/jzbz/rpgp/"
@@ -46,7 +46,7 @@ cask "rpgp" do
   # certificates. Removing it is a decision for the person, not for a package
   # manager flag.
   zap trash: [
-    "~/Library/Saved Application State/app.rpgp.rpgp.savedState",
+    "~/Library/Saved Application State/app.rpgp.rPGP.savedState",
   ]
 
   caveats <<~EOS
