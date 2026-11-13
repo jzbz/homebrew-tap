@@ -1,15 +1,17 @@
 # homebrew-tap
 
-Homebrew casks for [Azzurro](https://azzurro.blue/) and
-[rPGP](https://rpgp.app/).
+Homebrew casks for [Azzurro](https://azzurro.blue/),
+[Patina](https://patina.video/) and [rPGP](https://rpgp.app/).
 
     brew tap jzbz/tap
     brew install --cask azzurro
+    brew install --cask patina
     brew install --cask rpgp
 
 or, without tapping first:
 
     brew install --cask jzbz/tap/azzurro
+    brew install --cask jzbz/tap/patina
     brew install --cask jzbz/tap/rpgp
 
 One tap rather than one per app: a tap is only a repository with a `Casks/`
